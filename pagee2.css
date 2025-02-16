@@ -1,0 +1,17 @@
+body{
+  background-color:aqua;
+}
+
+button{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding:13px 70px;
+    display:inline-block ;
+    background-color:rgb(174, 223, 60);
+    font-weight: bolder;
+    text-align: center;
+   display: flex;
+   margin-right: 10%;
+   margin-left:43% ;
+    
+}
