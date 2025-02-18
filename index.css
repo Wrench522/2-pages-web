@@ -1,14 +1,20 @@
 body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
     background-color:rgb(27, 243, 20) ;
+}
+.key{
+   
     display:flex;
     justify-content: center;
-    
+     text-align: center;
     height: 79vh; 
     flex-direction: column;
     margin: 0;
 }
 
-.logo{
+.header .logo{
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -22,13 +28,9 @@ body{
   
 }
 
-form{
-    justify-content: center;
-    align-items: center;
-}
 
 nav {
-    background-color: #4b4848;
+    background-color: none;
     overflow: hidden;
     text-align: center;
     padding: 10px 0;
@@ -36,24 +38,17 @@ nav {
     font-size: large;
 }
 nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    padding: 14px 20px;
-    display: inline-block;
-    height: 10vh;
+    margin: 0 0.5rem;
+    padding: 25px;
 }
 nav a:hover {
     background-color: #b30909;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
-header{
-    align-items: center;
-    display:flex;
-    justify-content: center; 
-    height: 61vh; 
-    flex-direction: column;
-}
+
 
 .submit-btn{
     text-decoration:none ;
@@ -78,7 +73,7 @@ input{
     background-color: #927b77;
     border-radius: 16px;
     margin-right: 10%;
-   margin-left:43% ;
+   margin-left:23% ;
    display: inline-block;
    font-weight: bolder;
    
@@ -87,9 +82,21 @@ input{
 label{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    font-size: medium;
+    font-size: large;
+    
 }
 
 h2{
     font-size: xx-large;
+}
+
+.name{
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.number{
+   font-size: large;
+    font-weight: bolder;
 }

@@ -7,32 +7,34 @@
   <link rel="stylesheet" href="index.css">
     </head>
 <body>
-
+    <header class="header">
+        <div class="logo">WRENCH TAIKU</div>
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Contact</a>
     </nav>
+</header>
 
-<header>
-
+<div class="key">
     <h2>--- STUDENT DETAILS ---</h2>
     <form action="submit.php" method="post" onsubmit="return validateForm()">
 
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" class="name" required><br><br>
 
         <label for="number">Phone Number:</label><br>
-        <input type="number" id="number" name="number"  required onkeypress="return isNumberKey(event)"><br><br>
+        <input type="number" id="number" name="number" class="number"  required onkeypress="return isNumberKey(event)"><br><br><br>
 
-        <button  onclick="submitDetails()" class="submit-btn">SUBMIT</button><BR><BR><br>
+        <button onclick="submitDetails()" class="submit-btn">SUBMIT</button>
+<img id="submittedImage" src="C:\Users\user\OneDrive\form sub.avif" alt="Submitted" style="display: none; width: 100px; height: auto; margin-top: 10px;"><BR><BR><br>
 
 <button class="me-btn" onclick="window.location. href='pageee2.html'" >VIEW</button>
 
 </form>
+</div>
 
-</header>
 
 </body>
 

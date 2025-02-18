@@ -31,7 +31,7 @@ function isNumberKey(evt) {
 function submitDetails() {
   
         alert("   DETAILS SUBMITTED");
-        
+        document.getElementById("submittedImage").style.display = "block";
     }
 
     function toggleNav() {
