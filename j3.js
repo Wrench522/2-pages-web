@@ -30,8 +30,11 @@ function isNumberKey(evt) {
 
 function submitDetails() {
   
-        alert("    DETAILS SUBMITTED");
+        alert("   DETAILS SUBMITTED");
         
     }
-  
 
+    function toggleNav() {
+        var nav = document.getElementById("navbar");
+        nav.classList.toggle("hidden");
+    }

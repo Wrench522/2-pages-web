@@ -1,9 +1,91 @@
 body{
     background-color:rgb(27, 243, 20) ;
-    display: flex;
+    display:flex;
     justify-content: center;
-    align-items: center;
-    height: 90vh; 
+    
+    height: 79vh; 
     flex-direction: column;
     margin: 0;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header{
+    display:flex;
+    background-color: #00296b;
+  color: #fff;
+  padding: 1rem;
+  justify-content: space-between;
+  
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #4b4848;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: large;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    height: 10vh;
+}
+nav a:hover {
+    background-color: #b30909;
+    border-radius: 5px;
+}
+
+header{
+    align-items: center;
+    display:flex;
+    justify-content: center; 
+    height: 61vh; 
+    flex-direction: column;
+}
+
+.submit-btn{
+    text-decoration:none ;
+    padding:12 86px;
+    border-radius: 16px;
+    background-color: rgb(253, 95, 55);
+   font-weight: bolder;
+}
+
+input{
+   background-color: rgb(119, 200, 231);
+    padding: 7 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.me-btn{
+    padding: 10px 27px;
+    text-decoration: none;
+    background-color: #927b77;
+    border-radius: 16px;
+    margin-right: 10%;
+   margin-left:43% ;
+   display: inline-block;
+   font-weight: bolder;
+   
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: medium;
 }
