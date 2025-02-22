@@ -2,16 +2,33 @@ body{
   background-color:aqua;
 }
 
-button{
-    color:rgb(255, 255, 255);
-    text-decoration:none;
+.btn {
+    color:rgb(219, 19, 19);
+    text-decoration: none;
     padding:13px 70px;
-    display:inline-block ;
-    background-color:rgb(174, 223, 60);
+    display: flex;
+    background-color:rgb(189, 243, 80);
     font-weight: bolder;
     text-align: center;
-   display: flex;
+   display: inline-block;
    margin-right: 10%;
    margin-left:43% ;
+   border-radius: 33px;
     
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn :hover{
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    font-weight: bolder;
 }

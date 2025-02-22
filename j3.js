@@ -2,9 +2,9 @@ function validateForm() {
     let name = document.getElementById("name").value;
     let age = document.getElementById("age").value;
     let email = document.getElementById("email").value;
-    let course = document.getElementById("course").value;
+    let number = document.getElementById("course").value;
     
-    if (name === "" || age === "" || email === "" || course === "") {
+    if (name === "" || age === "" || email === "" || number === "") {
         alert("All fields are required!");
         return false;
     }
@@ -13,11 +13,7 @@ function validateForm() {
     return true;
 }
 
-function viewPage(){
 
-    alert("    YOU HAVE VIEWED PAGE 2  ");
-    window.onload = viewPage;
-  }
  
 
 function isNumberKey(evt) {
@@ -31,10 +27,9 @@ function isNumberKey(evt) {
 function submitDetails() {
   
         alert("   DETAILS SUBMITTED");
-        document.getElementById("submittedImage").style.display = "block";
+      
     }
 
-    function toggleNav() {
-        var nav = document.getElementById("navbar");
-        nav.classList.toggle("hidden");
-    }
+ 
+
+
